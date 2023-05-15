@@ -21,10 +21,10 @@ const DropdownMenu = () => {
       </div>
       <div>
       {isOpen && (
-        <div className='flex flex-col gap-5 text-left mr-20 border border-black p-5 pr-20'>
-          <a className='' href='#' onClick={() => handleOptionClick}>Home</a>
-          <a href='#' onClick={() => handleOptionClick}>About</a>
-          <a href='#' onClick={() => handleOptionClick}>Contact</a>
+        <div className='flex flex-col text-left mr-20 border rounded-l-2xl border-black bg-stone-800'>
+          <a className='border p-5 pr-20 rounded-ss-2xl' href='#' onClick={() => handleOptionClick}>Home</a>
+          <a className='border p-5 pr-20' href='#' onClick={() => handleOptionClick}>About</a>
+          <a className='border p-5 pr-20 rounded-es-2xl' href='#' onClick={() => handleOptionClick}>Contact</a>
         </div>
       )}
       </div>

@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Dropdown from './Dropdown'
+import PersonList from './PersonList';
+import PersonSearch from './PersonSearch';
 
 function App() {
 
@@ -20,8 +22,16 @@ function App() {
 
         </div>
       </header>
-      <main className='w-5/5 h-max'>
+      <main className='w-5/5 h-max mt-10'>
+        <div>
 
+          <h1>Expandable List of Persons</h1>
+          <PersonList />
+
+          <h1 className='mt-10'>Person Search</h1>
+          <PersonSearch />
+
+        </div>
       </main>
       <footer className='w-5/5 h-100'>
         
